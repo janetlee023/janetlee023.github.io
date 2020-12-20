@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import EducationModal from "./EducationMocal";
 
-class Projects extends Component {
+class Education extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -16,28 +16,22 @@ class Projects extends Component {
     };
 
     let detailsModalClose = () => this.setState({ detailsModalShow: false });
-    if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
-      var projects = this.props.resumeProjects.map(function (projects) {
+    if (this.props.resumeEducation && this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.education;
+      var schools = this.props.resumeEducation.map(function (schools) {
         return (
           <div
             className="col-sm-12 col-md-6 col-lg-4"
-            key={projects.title}
+            key={schools.title}
             style={{ cursor: "pointer" }}
           >
             <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+              <div className="foto" onClick={() => detailsModalShow(schools)}>
                 <div>
-                  <img
-                    src={projects.images[0]}
-                    alt="projectImages"
-                    height="250"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
-                  />
-                  <span className="project-date">{projects.startDate}</span>
+                  <span className="project-date">{schools.startDate + ' - ' + schools.endDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
-                    {projects.title}
+                    {schools.title}
                   </p>
                 </div>
               </div>
@@ -50,13 +44,13 @@ class Projects extends Component {
     return (
       <section id="portfolio">
         <div className="col-md-12">
-          <h1 className="section-title" style={{ color: "black" }}>
+          <h1 className="section-title" style={{color: "#1f1f1f"}}>
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto" style={{display: "flex", justifyContent: "space-evenly"}}>{schools}</div>
           </div>
-          <ProjectDetailsModal
+          <EducationModal
             show={this.state.detailsModalShow}
             onHide={detailsModalClose}
             data={this.state.deps}
@@ -67,4 +61,4 @@ class Projects extends Component {
   }
 }
 
-export default Projects;
+export default Education;
