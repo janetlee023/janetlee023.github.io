@@ -27,6 +27,7 @@ class Header extends Component {
       var name = this.props.sharedData.name;
       var title = this.props.sharedData.title.toUpperCase();
     }
+
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
@@ -82,6 +83,7 @@ class Header extends Component {
           </div>
         </div>
       </header>
+      
     );
   }
 }

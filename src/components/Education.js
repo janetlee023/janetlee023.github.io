@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import EducationModal from "./EducationMocal";
+import EducationModal from "./EducationModal";
 
 class Education extends Component {
   constructor(props) {

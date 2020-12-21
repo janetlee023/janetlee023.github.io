@@ -12,6 +12,8 @@ class EducationModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      const courses = this.props.data.courses;
+
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -34,7 +36,26 @@ class EducationModal extends Component {
         //   });
         // }
       }
+      if (this.props.data.courses) {
+        var courseInfo = courses.map((course, i) => {
+          return (
+            <div>
+              <p4>
+                <b>
+                {course.courseName}
+                </b>
+              </p4>
+              <br />
+              {course.desc}
+            </div>
+          )
+        });
+      }
     }
+
+
+
+    
     return (
       <Modal
         {...this.props}
@@ -47,7 +68,7 @@ class EducationModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          {/* <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}> */}
             {/* <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
@@ -75,9 +96,9 @@ class EducationModal extends Component {
             > */}
               {/* {img} */}
             {/* </AwesomeSlider> */}
-          </div>
+          {/* </div> */}
           <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
+            <h3>
               {title}
               {url ? (
                 <a
@@ -94,8 +115,9 @@ class EducationModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            {courseInfo}
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto" style = {{paddingTop: 20}}>{tech}</ul>
             </div>
           </div>
         </div>

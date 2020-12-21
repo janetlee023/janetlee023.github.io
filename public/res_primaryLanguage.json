@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello World!",
+      "description": "Hi there! I'm Janet and I'm a Software Engineer with General Dynamics Mission Systems located in Maryland. I have had the opporunity of dabbling in different realms of software development and am currently working with C# and ASP.NET. I also am working on a start-up which uses React! Keeping my skills sharp when I can. I am always looking to expand my skillset and tone my skills at hand. When I grad school gives me the time, I try to be outdoors as much as I can! Snowboarding, longboarding, camping/hiking, and traveling to name a few!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -94,16 +94,26 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-cplusplus-plain",
+            "name": "C++"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-python-plain",
+            "name": "Python"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-linux-plain",
+            "name": "Linux"
+          }
+        ],
+        "courses": [
+          {
+            "courseName": "Data Structures and Object Oriented Programming:",
+            "desc": "Create various implementations of object oriented data structures including: Heaps, Binary Trees, Functors, Queues, Stacks."
+          },
+          {
+            "courseName": "Algorithms:",
+            "desc": "Understand the basis of communly used data structures and be able to idenitfy the optimal data structure."
           }
         ]
       },
@@ -123,8 +133,24 @@
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-mysql-plain",
+            "name": "MySQL"
           }
         ]
       }
@@ -136,79 +162,76 @@
         "title": "Full Stack Developer",
         "years": "11.2020 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "C#", "ASP.NET"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
+          "MongoDB",
+          "Java",
+          "Spring",
+          ".NET Web Forms"
+        ],
+        "icon": "devicon-csharp-plain"
       },
       {
         "company": "General Dynamics Mission Systems",
         "title": "Software Engineer",
         "years": "05.2019 - 10.2020",
         "mainTech": [
-          "Angular 7/8"
+          "React", "Node.js"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "MongoDB",
           "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "Electron"
+        ],
+        "icon": "devicon-react-original"
       },
       {
         "company": "General Dynamics Mission Systems",
         "title": "Software Engineer (Part-Time)",
         "years": "08.2018 - 01.2019",
         "mainTech": [
-          "Angular 7/8"
+          "C++", "Python", "Java"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "SonarQube",
+          "Docker",
+          "Kubernetes",
+          "CentOS"
+        ],
+        "icon": "devicon-cplusplus-plain"
       },
       {
         "company": "Univeristy of Baltimore Maryland Campus",
         "title": "Teaching Assistant for C++",
         "years": "08.2018 - 05.2019",
         "mainTech": [
-          "Angular 7/8"
+          "C++"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "GDB",
+          "Emacs",
+          "Putty",
+          "Vim"
+        ],
+        "icon": "devicon-cplusplus-plain"
       },
       {
         "company": "General Dynamics Mission Systems",
         "title": "Software Engineer Intern",
         "years": "05.2018 - 08.2018",
         "mainTech": [
-          "Angular 7/8"
+          "Python" , "C++"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
+          "Raspbien",
+          "RTL-SDR",
+          "Blade RF",
+          "Wireshark",
+          "Airprobe/ GR-GSM"
+        ],
+        "icon": "devicon-python-plain"
       }
     ]
   }
