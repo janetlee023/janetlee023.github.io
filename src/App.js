@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import ContactForm from "./components/ContactForm";
 
 class App extends Component {
   constructor(props) {
@@ -56,7 +57,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
+        <Header 
+          sharedData={this.state.sharedData.basic_info} 
+        />
         <About
           resumeBasicInfo={this.state.resumeData.basic_info}
           sharedBasicInfo={this.state.sharedData.basic_info}
@@ -77,7 +80,7 @@ class App extends Component {
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-
+        {/* <ContactForm /> */}
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div>
     );

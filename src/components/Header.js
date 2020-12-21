@@ -28,6 +28,19 @@ class Header extends Component {
       var title = this.props.sharedData.title.toUpperCase();
     }
 
+    if (this.props.sharedData) {
+      var networks = this.props.sharedData.social.map(function (network) {
+        console.log("name:", network.name)
+        return (
+            <div key={network.name} className="m-4" style = {{fontSize: 40}}>
+              <a href={network.url} target="_blank" rel="noopener noreferrer">
+                <div className={network.class}></div>
+              </a>
+            </div>
+        );
+      });
+    }
+
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
         <div className="row aligner" style={{height: '100%'}}>
@@ -80,6 +93,9 @@ class Header extends Component {
                 id="icon-switch"
               />
             </div>
+          </div>
+          <div style= {{display: "flex"}}>
+            {networks}
           </div>
         </div>
       </header>

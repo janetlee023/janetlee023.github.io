@@ -421,3 +421,18 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+.contactFormArea {
+	display: flex;
+	justify-content: center;
+	background-color: #1f1f1f;
+	height: 200px;
+}
+
+.formContent {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #efe1bd;
+	height: 100%;
+}

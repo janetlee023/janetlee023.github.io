@@ -12,26 +12,41 @@
           "name": "instagram",
           "url": "https://www.instagram.com/janetlee0230/",
           "class": "fab fa-instagram"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/janetlee023/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.JPG"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "65"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
+          "name": "C++",
+          "class": "devicon-cplusplus-plain",
+          "level": "65"
         },
         {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "80"
+        },
+        {
+          "name": "Node",
+          "class": "devicon-nodejs-plain",
+          "level": "85"
+        },
+        {
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
         },
         {
           "name": "TypeScript",
@@ -47,21 +62,36 @@
           "name": "Sass",
           "class": "devicon-sass-original",
           "level": "75"
+        },        
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "65"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "65"
+        },
+        {
+          "name": "VS",
+          "class": "devicon-visualstudio-plain",
+          "level": "65"
         }
       ]
     }

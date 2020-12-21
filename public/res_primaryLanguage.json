@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello World!",
-      "description": "Hi there! I'm Janet and I'm a Software Engineer with General Dynamics Mission Systems located in Maryland. I have had the opporunity of dabbling in different realms of software development and am currently working with C# and ASP.NET. I also am working on a start-up which uses React! Keeping my skills sharp when I can. I am always looking to expand my skillset and tone my skills at hand. When I grad school gives me the time, I try to be outdoors as much as I can! Snowboarding, longboarding, camping/hiking, and traveling to name a few!",
+      "description": "Hi there! I'm Janet and I'm a Software Engineer with General Dynamics Mission Systems located in Maryland. I have had the opporunity of dabbling in different realms of software development and am currently working with C# and ASP.NET. I also am working on a start-up which uses React! Keeping my skills sharp when I can. I am always looking to expand my skillset and tone my skills at hand. When I grad school gives me the time, I try to be outdoors as much as possible! Snowboarding, longboarding, camping/hiking, and traveling to name a few!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -91,7 +91,7 @@
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "",
+        "url": "https://www.csee.umbc.edu/undergraduate/computer-science-bs/",
         "technologies": [
           {
             "class": "devicon-cplusplus-plain",
@@ -114,19 +114,27 @@
           {
             "courseName": "Algorithms:",
             "desc": "Understand the basis of communly used data structures and be able to idenitfy the optimal data structure."
+          },
+          {
+            "courseName": "Operating Systemts",
+            "desc": ""
+          },
+          {
+            "courseName": "Assembly and Computer Architecture",
+            "desc": ""
           }
         ]
       },
       {
         "title": "Georgia Institute of Technology",
-        "startDate": "2019",
+        "startDate": "2020",
         "endDate": "2022 (est)",
-        "description": "Currently obtaining a Masters Degree in Computer Science with a focust in Computing Systems.",
+        "description": "Currently obtaining a Masters Degree in Computer Science with a focus in Computing Systems.",
         "images": [
           "images/portfolio/photography/p1.jpg",
           "images/portfolio/photography/p2.jpg"
         ],
-        "url": "https://github.com",
+        "url": "https://omscs.gatech.edu/",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -151,6 +159,20 @@
           {
             "class": "devicon-mysql-plain",
             "name": "MySQL"
+          }
+        ],
+        "courses": [
+          {
+            "courseName": "Database Systems",
+            "desc": ""
+          },
+          {
+            "courseName": "Software Development and Analysis",
+            "desc": ""
+          },
+          {
+            "courseName": "Networks",
+            "desc": ""
           }
         ]
       }
